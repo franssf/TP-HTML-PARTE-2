@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejercicio 3</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Encuesta Campus Virtual</h1>  
+        <form action = " " method = "Get">
+            <p>
+                <label><b>NOMBRE:</b></label>
+                <input id= "name" type = "text" name = "Nombre" maxlength= "50"/>
+            </p>
+            <p>
+                <label><b>DEPARTAMENTO:</b></label>
+                <select id="select" name="Departamento" id="Departamento">
+                    <option value="informatica">Informática</option>
+                    <option value="electronica">Electrónica</option>
+                    <option value="abogacia">Abogacía </option>
+                    <option value="psicologia">Psicología</option>
+                    <option value="kinesio">Kinesiología</option>
+                </select>
+            </p> 
+            <p>
+                <label><b>SEDE:</b></label>
+                <select id="select" name="Sede" id="Sede">
+                    <option value="sgo">Santiago del Estero</option>
+                    <option value="cba">Córdoba</option>
+                    <option value="rafaela">Rafaela</option>
+                    <option value="jujuy">Jujuy</option>
+                    <option value="bsas">Buenos Aires</option>
+                </select>
+            </p>
+            <p>
+                <label><b>EMAIL:</b></label>
+                <input id= "email" type = "text" name = "Email" maxlength= "50"/>
+            </p>    
+            <p>
+                <label><b>TELÉFONO:</b></label>
+                <input id= "tel" type = "text" name = "Telefono" maxlength= "50"/>
+            </p>
+            <p>
+                <label><b>¿Utiliza habitualmente el campus virtual?</b></label>
+                <label>Si<input id= "opcion" type="radio" name = "opcionsi1" checked></label>
+                <label>No<input id= "opcion" type="radio" name = "opcionno1"></label>
+            </p>
+            <p>
+                <label><b>¿Estaría interesado en recibir formación personalizada sobre las posibilidades de esta herramienta informática?</b></label>
+                <label>Si<input id= "opcion" type="radio" name = "opcionsi2" checked></label>
+                <label>No<input id= "opcion" type="radio" name = "opcionno2"></label>
+            </p>
+            <h2>Encuesta Campus Virtual</h2>  
+            <p>
+                <label><b>TURNO PREFERENTE</b></label>
+                <label>Mañana<input id= "opcioncuadrada" type="checkbox" name = "manana" checked></label>
+                <label>Tarde<input id= "opcioncuadrada" type="checkbox" name = "tarde"></label>
+            </p>
+            <p>
+                <label><b>MES PREFERENTE:</b></label>
+                <select id="select" name="mes" id="mes">
+                    <option value="enero">Enero</option>
+                    <option value="febrero">Febrero</option>
+                    <option value="marzo">Marzo</option>
+                    <option value="abril">Abril</option>
+                    <option value="mayor">Mayo</option>
+                    <option value="junio">Octubre</option>
+                    <option value="julio">Julio</option>
+                    <option value="agosto">Agosto</option>
+                    <option value="septiembre">Septiembre</option>
+                    <option value="octubre">Octubre</option>
+                    <option value="noviembre">Noviembre</option>
+                    <option value="diciembre">Diciembre</option>
+                </select>
+            </p>
+            <p>
+                <label><b>HORARIO PREFERENTE:</b></label>
+                <select id="select" name="horario" id="horario">
+                    <option value="ocho">8:00</option>
+                    <option value="nueve">9:00</option>
+                    <option value="diez">10:00</option>
+                    <option value="once">11:00</option>
+                    <option value="doce">12:00</option>
+                    <option value="trece">13:00</option>
+                    <option value="catorce">14:00</option>
+                    <option value="quince">15:00</option>
+                    <option value="dieciseis">16:00</option>
+                    <option value="diecisiete">17:00</option>
+                    <option value="dieciocho">18:00</option>
+                </select>
+            </p>
+            <div>
+                <label class="comentario"><b>COMENTARIOS:</b></label><br>
+                <textarea name="comentario" rows="5" cols="40" style="resize: none;"></textarea>
+            </div>
+            <br>
+            <input type="submit">
+            <button>Borrar</button>
+        </form>
+    </body>
+</html>
