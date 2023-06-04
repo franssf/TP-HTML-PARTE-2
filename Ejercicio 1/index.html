@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejercicio 1</title>
+        <meta charset="utf-8">
+        <style>
+            body{
+                font-family: Arial;
+                font-size: smaller;
+            }
+            .materias{
+                height: 80px;
+            }
+            table{
+                border: 1px solid;
+            }
+            th{
+                border-right: 1px solid;
+                border-bottom:1px solid;
+            }
+            .nobderecha{
+                border-right: none;
+            }
+            .nobabajo{
+                border-bottom: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div align="center">
+        <h1>Horario de materias - Módulo actual</h1>
+        <table width="800px">
+            <tr>
+               <th>Lunes</th>
+               <th>Martes</th>
+               <th>Miércoles</th>
+               <th>Jueves</th>
+               <th class="nobderecha">Viernes</th>
+            </tr>
+            <tr class="materias">
+                <th></th>
+                <th></th>
+                <th>Sistemas Operativos II T-P</th>
+                <th>Sistemas Operativos II Teoría</th>
+                <th class="nobderecha"></th>
+             </tr>
+             <tr>
+                <th></th>
+                <th></th>
+                <th>09:00 - 13:00</th>
+                <th>08:00 - 10:00</th>
+                <th class="nobderecha"></th>
+             </tr>
+             <tr class="materias">
+                <th>Probabilidad y Estadística T-P</th>
+                <th>Probabilidad y Estadística T-P</th>
+                <th>Información y Comunicación (Práctica)</th>
+                <th>Base de Datos II T-P</th>
+                <th class="nobderecha ">Base de Datos II T-P</th>
+             </tr>
+             <tr>
+                <th>14:00 - 17:00</th>
+                <th>14:00 - 17:00</th>
+                <th>15:00 - 18:00</th>
+                <th>15:00 - 18:00</th>
+                <th class="nobderecha ">15:00 - 18:00</th>
+             </tr>
+             <tr class="materias">
+                <th></th>
+                <th>Legislación y Gestión Ambiental T-P</th>
+                <th>Programación II T-P</th>
+                <th>Información y Comunicación Teoría</th>
+                <th class="nobderecha">Programación II T-P</th>
+             </tr>
+             <tr>
+                <th class="nobabajo"></th>
+                <th class="nobabajo">18:00 - 22:00</th>
+                <th class="nobabajo">18:00 - 21:00</th>
+                <th class="nobabajo">18:00 - 21:00</th>
+                <th class="nobderecha nobabajo">18:00 - 21:00</th>
+             </tr>
+        </table>
+    </div>
+    </body>
+</html>
